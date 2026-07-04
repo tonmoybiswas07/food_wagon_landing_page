@@ -1,5 +1,6 @@
 /* css file here */
 
+/* universal style */
 * {
   padding: 0%;
   margin: 0%;
@@ -8,6 +9,7 @@
 body {
   background-color: antiquewhite;
 }
+/* navbar style */
 .header {
   display: flex;
   justify-content: space-around;
@@ -46,4 +48,71 @@ body {
   background-color: white;
   box-shadow: 3px 3px 10px 2px #fdca1c;
 }
+/* banner style */
+.banner{
+    background-color: #fdca1c;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-left h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.banner-left p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.banner-box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    box-shadow: 3px 3px 20px rgb(162, 145, 59);
+}
+.banner-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+}
+.banner-btn button{
+    border: none;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.banner-btn button span{
+   color: #F17228;
+   
+}
+.banner-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.banner-input input{
+    width: 70%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.122);
+    border-radius: 8px;
+}
+.b-btn button{
+    background: linear-gradient(#FF7A7A, #F65900);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+
 

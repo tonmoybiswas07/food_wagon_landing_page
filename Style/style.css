@@ -1,1 +1,49 @@
 /* css file here */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+
+.header-middle {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.location-left p,
+.location-right span {
+  font-weight: 700;
+}
+
+.header-right input {
+  border: none;
+  padding-left: 5px;
+  padding: 10px;
+}
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn button {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 2px #fdca1c;
+}
+

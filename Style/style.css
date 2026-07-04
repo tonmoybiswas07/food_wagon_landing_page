@@ -8,6 +8,7 @@
 }
 body {
   background-color: antiquewhite;
+ 
 }
 /* navbar style */
 .header {
@@ -16,6 +17,7 @@ body {
   align-items: center;
   background-color: white;
   padding: 20px 10px;
+  
 }
 
 
@@ -50,6 +52,7 @@ body {
 }
 /* banner style */
 .banner{
+    
     background-color: #fdca1c;
     min-height: 500px;
     display: flex;
@@ -100,7 +103,7 @@ body {
 .banner-input input{
     width: 70%;
     margin: 20px 0px;
-    padding: 10px 0px;
+    padding: 10px 10px;
     border: none;
     background-color: rgba(128, 128, 128, 0.122);
     border-radius: 8px;
@@ -112,6 +115,40 @@ body {
     border-radius: 8px;
     color: white;
     font-weight: bold;
+}
+/* badge section style */
+.badge{
+    background: linear-gradient(#ffcf674c,#FDEDCA);
+    max-height: 600px;
+    padding: 3rem;
+    
+}
+.title{
+    color: #F17228;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.badge-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card h3{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.card p{
+    font-size: 1rem;
+    text-align: center;
+    color: gray;
 }
 
 
